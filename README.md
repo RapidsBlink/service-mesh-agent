@@ -1,6 +1,6 @@
 # service-mesh-agent 
 
-Service mesh agent in pure c (使用intrinsics编写向量化代码). 
+Service mesh agent in pure c (使用intrinsics编写向量化代码) --- Created By Blink`团队 ([Pisces](https://github.com/WANG-lp) and [yche](https://github.com/CheYulin))。
 
 ## 下载依赖
 
@@ -15,6 +15,17 @@ git submodule update
 mkdir -p build && cd build
 cmake .. && make -j 
 ```
+
+## 本仓库的文件
+
+文件夹/文件 | 说明
+--- | ---
+[src](src) | 源代码文件
+[cmake](cmake), [CMakeLists.txt](CMakeLists.txt) | 项目构建文件
+[Dockerfile](Dockerfile)| 配合阿里云镜像仓库hook生成镜像，agents启动用 [start-agent.sh](start-agent.sh)
+[3rd-deps](3rd-deps), [LICENSES](LICENSES) | 第三方依赖和对应licenses
+[python_playgound](python_playgound), [scripts](scripts) | 编码和测试中用的python以及shell脚本
+[LICENSE](LICENSE) | 该项目的License
 
 ## 最高跑分统计数据
 
