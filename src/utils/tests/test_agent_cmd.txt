@@ -1,0 +1,2 @@
+/agent provider    3000     28000    http://localhost:2379    log.txt
+                   listen    dubbo    etcd_url

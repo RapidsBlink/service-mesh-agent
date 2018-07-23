@@ -1,0 +1,12 @@
+[submodule "3rd-deps/picohttpparser"]
+	path = 3rd-deps/picohttpparser
+	url = https://github.com/h2o/picohttpparser.git
+[submodule "3rd-deps/base64"]
+	path = 3rd-deps/base64
+	url = https://github.com/littlstar/b64.c.git
+[submodule "3rd-deps/jsmn"]
+	path = 3rd-deps/jsmn
+	url = https://github.com/zserge/jsmn.git
+[submodule "3rd-deps/uthash"]
+	path = 3rd-deps/uthash
+	url = https://github.com/troydhanson/uthash.git
