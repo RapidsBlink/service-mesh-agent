@@ -1,7 +1,22 @@
-# alicontest-dubbo-agent
+# service-mesh-agent 
 
+Service mesh agent in pure c (使用intrinsics编写向量化代码). 
 
-## Statistics
+## 下载依赖
+
+```zsh 
+git submodule init 
+git submodule update
+```
+
+## 本地构建代码
+
+```zsh
+mkdir -p build && cd build
+cmake .. && make -j 
+```
+
+## 最高跑分统计数据
 
 ```zsh
 [INFO] >>> Pressure with 128 connections.
@@ -106,6 +121,4 @@ QPS:             7144.13
 --------------------------
 
 [INFO] QPS = 7144.13
-```
-
 ```
