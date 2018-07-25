@@ -1,3 +1,7 @@
+# Disclaimer
+此项目仅供学习与交流使用，请遵循MIT协议，如果您在任何项目中使用相关代码，请保留此项目的LICENSE文件。
+
+
 # service-mesh-agent 
 
 Service mesh agent in pure c (使用intrinsics编写向量化代码) --- Created By Blink`团队 ([Pisces](https://github.com/WANG-lp) and [yche](https://github.com/CheYulin))。
